@@ -10,7 +10,7 @@ function mountApiRoutes(expressApp) {
     var api = express.Router();
     
     // Binding to api router
-    api.use("/authUser", flightApiRoutes);
+    api.use("/auth", flightApiRoutes);
 
 
     // Attaching api to main express app
